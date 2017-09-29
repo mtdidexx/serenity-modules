@@ -1,0 +1,1 @@
+A simple project that looks at separating application code and its unit tests from the Serenity acceptance tests via gradle sub-projects.

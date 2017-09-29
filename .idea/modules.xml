@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/acceptance/acceptance.iml" filepath="$PROJECT_DIR$/.idea/modules/acceptance/acceptance.iml" group="acceptance" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/acceptance/acceptance_main.iml" filepath="$PROJECT_DIR$/.idea/modules/acceptance/acceptance_main.iml" group="acceptance" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/acceptance/acceptance_test.iml" filepath="$PROJECT_DIR$/.idea/modules/acceptance/acceptance_test.iml" group="acceptance" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app_main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app_main.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app_test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app_test.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/serenity-modules.iml" filepath="$PROJECT_DIR$/serenity-modules.iml" />
+    </modules>
+  </component>
+</project>

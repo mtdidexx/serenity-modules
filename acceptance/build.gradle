@@ -1,0 +1,31 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:1.6.0")
+    }
+}
+// Nothing like mixing the new plugin DSL with the legacy apply plugin syntax!!
+plugins {
+    id 'java'
+}
+apply plugin: 'net.serenity-bdd.aggregator'
+
+dependencies {
+    compile 'net.serenity-bdd:serenity-core:1.6.0'
+    compile 'net.serenity-bdd:serenity-screenplay:1.6.0'
+    compile 'net.serenity-bdd:serenity-screenplay-webdriver:1.6.0'
+    compile 'net.serenity-bdd:serenity-cucumber:1.5.9'
+    compile('org.assertj:assertj-core:3.6.2')
+    compile 'org.slf4j:slf4j-simple:1.7.7'
+    testCompile('junit:junit:4.12')
+    compile project(':app')
+}
+
+test {
+    testLogging.showStandardStreams = true
+    systemProperties System.getProperties()
+}
+
+gradle.startParameter.continueOnFailure = true
